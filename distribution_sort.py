@@ -1,5 +1,3 @@
-import random as rm
-
 def distribution_sort(v, n):
     s = min(v)
     e = max(v)
@@ -19,9 +17,3 @@ def distribution_sort(v, n):
         c[d] = c[d]-1
 
     return z
-
-n = rm.randint(1, 10)
-v = [rm.randint(1, 100) for i in range(n)]
-
-print(f"Vetor Original: {v}")
-print(f"Vetor Transformado: {distribution_sort(v,n)}")

@@ -1,5 +1,3 @@
-import random as rm
-
 def merge_sort(A, start, end):
     if start < end:
         middle = (start + end)//2
@@ -22,9 +20,5 @@ def merge(A, start, middle, end):
             j += 1
     for k in range(0, end-start):
         A[start+k] = v[k]
-
-A = [rm.randint(0, 10) for x in range(0,10)]
-merge_sort(A, 0, len(A)-1)
-print(f"A_merged = {A}")
 
 

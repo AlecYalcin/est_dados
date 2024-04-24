@@ -15,8 +15,4 @@ def quick_sort(A, start, end):
         pivot = partition(A, start, end)
         quick_sort(A, start, pivot - 1)
         quick_sort(A, pivot + 1, end)
-
-# Exemplo de uso:
-A = [rm.randint(1, 100) for i in range(rm.randint(10,15))]
-quick_sort(A, 0, len(A) - 1)
-print("Sorted Aay (recursive):", A)
+    return A

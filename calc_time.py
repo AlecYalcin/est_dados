@@ -21,13 +21,13 @@ file_names = [
 ]
 
 write_file(file_names)
-for n in range(10, 1010, 10):
+for n in range(2, 1001, 1):
     array = [rm.randint(0, 100) for x in range(n)]
 
     # Distribution Sort
-    start_t = time.time()
+    start_t = time.time_ns()
     z = distribution_sort(array, len(array)-1)
-    end_t = time.time()
+    end_t = time.time_ns()
     
     exec_t = end_t - start_t
 
@@ -35,9 +35,9 @@ for n in range(10, 1010, 10):
         f.write(str(n) + ", " + str(exec_t) + "\n")
 
     # Insertion Sort
-    start_t = time.time()
+    start_t = time.time_ns()
     z = insertion_sort(array, len(array)-1)
-    end_t = time.time()
+    end_t = time.time_ns()
     
     exec_t = end_t - start_t
 
@@ -45,9 +45,9 @@ for n in range(10, 1010, 10):
         f.write(str(n) + ", " + str(exec_t) + "\n")
 
     # Merge Sort
-    start_t = time.time()
+    start_t = time.time_ns()
     z = merge_sort(array, 0, len(array)-1)
-    end_t = time.time()
+    end_t = time.time_ns()
     
     exec_t = end_t - start_t
 
@@ -55,9 +55,9 @@ for n in range(10, 1010, 10):
         f.write(str(n) + ", " + str(exec_t) + "\n")
 
     # Quick Sort
-    start_t = time.time()
+    start_t = time.time_ns()
     z = quick_sort(array, 0, len(array)-1)
-    end_t = time.time()
+    end_t = time.time_ns()
     
     exec_t = end_t - start_t
 
@@ -65,9 +65,9 @@ for n in range(10, 1010, 10):
         f.write(str(n) + ", " + str(exec_t) + "\n")
 
     # Selection Sort
-    start_t = time.time()
+    start_t = time.time_ns()
     z = selection_sort(array, len(array)-1)
-    end_t = time.time()
+    end_t = time.time_ns()
     
     exec_t = end_t - start_t
 

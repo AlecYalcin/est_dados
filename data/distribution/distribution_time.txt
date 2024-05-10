@@ -1,0 +1,10 @@
+10 92532,9 96800 101480 20 data/distribution/distribution_time-20-10.txt
+20 109099 5454,95 97778 110559 20 data/distribution/distribution_time-20-20.txt
+30 114428 5721,4 99524 99524 20 data/distribution/distribution_time-20-30.txt
+40 114204 5710,2 97708 97708 20 data/distribution/distribution_time-20-40.txt
+50 118852 5942,6 129346 113283 20 data/distribution/distribution_time-20-50.txt
+60 118947 5947,35 132978 111047 20 data/distribution/distribution_time-20-60.txt
+70 123364 6168,2 143943 114959 20 data/distribution/distribution_time-20-70.txt
+80 123085 6154,25 128019 118661 20 data/distribution/distribution_time-20-80.txt
+90 127370 6368,5 142895 122152 20 data/distribution/distribution_time-20-90.txt
+100 129440 6472 137727 124527 20 data/distribution/distribution_time-20-100.txt

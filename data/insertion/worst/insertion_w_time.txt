@@ -1,0 +1,10 @@
+10 9251,21 9988 10057 100 data/insertion/worst/insertion_w_time-100-10.txt
+20 20898 208,98 41765 101479 100 data/insertion/worst/insertion_w_time-100-20.txt
+30 37446,8 95263 33873 100 data/insertion/worst/insertion_w_time-100-30.txt
+40 61694,3 88209 151904 100 data/insertion/worst/insertion_w_time-100-40.txt
+50 91300,7 99803 100152 100 data/insertion/worst/insertion_w_time-100-50.txt
+60 133010 1330,1 203168 121523 100 data/insertion/worst/insertion_w_time-100-60.txt
+70 175133 1751,33 220350 165174 100 data/insertion/worst/insertion_w_time-100-70.txt
+80 227222 2272,22 319175 214343 100 data/insertion/worst/insertion_w_time-100-80.txt
+90 280739 2807,39 326648 268889 100 data/insertion/worst/insertion_w_time-100-90.txt
+100 351213 3512,13 461022 331466 100 data/insertion/worst/insertion_w_time-100-100.txt

@@ -1,3 +1,7 @@
+import sys
+import time
+import random as rm
+
 def distribution_sort(v, n):
     s = min(v)
     e = max(v)
@@ -17,3 +21,12 @@ def distribution_sort(v, n):
         c[d] = c[d]-1
 
     return z
+
+if __name__ == "__main__":
+    n = int(sys.argv[1])
+    v = [rm.randint(0, 1000) for x in range(n)]
+    first_time = time.time_ns()
+    v = distribution_sort(v, n)
+    final_time = time.time_ns()
+    total_time = final_time - first_time
+    print(total_time)

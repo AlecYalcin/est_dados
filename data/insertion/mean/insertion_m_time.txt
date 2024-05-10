@@ -1,0 +1,10 @@
+10 8013,53 9708 10057 100 data/insertion/mean/insertion_m_time-100-10.txt
+20 13511,5 16343 10406 100 data/insertion/mean/insertion_m_time-100-20.txt
+30 23340,9 45885 16761 100 data/insertion/mean/insertion_m_time-100-30.txt
+40 36462,7 60133 25772 100 data/insertion/mean/insertion_m_time-100-40.txt
+50 50891,2 72495 40089 100 data/insertion/mean/insertion_m_time-100-50.txt
+60 69645 696,45 91352 102178 100 data/insertion/mean/insertion_m_time-100-60.txt
+70 95225,8 99454 100012 100 data/insertion/mean/insertion_m_time-100-70.txt
+80 120882 1208,82 99174 101619 100 data/insertion/mean/insertion_m_time-100-80.txt
+90 149801 1498,01 200793 128019 100 data/insertion/mean/insertion_m_time-100-90.txt
+100 177775 1777,75 220349 141499 100 data/insertion/mean/insertion_m_time-100-100.txt

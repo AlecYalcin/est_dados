@@ -1,0 +1,9 @@
+100 109785 109,785 99104 100989 1000 data/quick/mean/quick_sort_mean-1000-100.txt
+200 153449 153,449 289139 129344 1000 data/quick/mean/quick_sort_mean-1000-200.txt
+300 254185 254,185 409963 217064 1000 data/quick/mean/quick_sort_mean-1000-300.txt
+400 374348 374,348 950389 323291 1000 data/quick/mean/quick_sort_mean-1000-400.txt
+500 498842 498,842 907367 429589 1000 data/quick/mean/quick_sort_mean-1000-500.txt
+600 625253 625,253 968828 1418600 1000 data/quick/mean/quick_sort_mean-1000-600.txt
+700 759737 759,737 989293 1018276 1000 data/quick/mean/quick_sort_mean-1000-700.txt
+800 897433 897,433 996347 1000537 1000 data/quick/mean/quick_sort_mean-1000-800.txt
+900 1.03353e+06 999769 1000259 1000 data/quick/mean/quick_sort_mean-1000-900.txt

@@ -1,0 +1,9 @@
+100 47025,9 97233 100865 1000 data/distribution/distribution_sort-1000-100.txt
+200 61076,7 91990 112945 1000 data/distribution/distribution_sort-1000-200.txt
+300 93186,5 99323 102187 1000 data/distribution/distribution_sort-1000-300.txt
+400 136256 136,256 248933 126213 1000 data/distribution/distribution_sort-1000-400.txt
+500 170336 170,336 274562 159388 1000 data/distribution/distribution_sort-1000-500.txt
+600 210858 210,858 326457 198500 1000 data/distribution/distribution_sort-1000-600.txt
+700 249094 249,094 378071 236424 1000 data/distribution/distribution_sort-1000-700.txt
+800 280673 280,673 409637 266176 1000 data/distribution/distribution_sort-1000-800.txt
+900 319643 319,643 687684 301098 1000 data/distribution/distribution_sort-1000-900.txt

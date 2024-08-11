@@ -1,0 +1,9 @@
+100 275710 275,71 607461 146314 1000 data/insertion/mean/insertion_sort_mean-1000-100.txt
+200 685178 685,178 993315 564610 1000 data/insertion/mean/insertion_sort_mean-1000-200.txt
+300 1.58466e+06 2883361 1350339 1000 data/insertion/mean/insertion_sort_mean-1000-300.txt
+400 2.93935e+06 4655585 2580118 1000 data/insertion/mean/insertion_sort_mean-1000-400.txt
+500 4.8982e+06 7908097 4389366 1000 data/insertion/mean/insertion_sort_mean-1000-500.txt
+600 7.24876e+06 9090755 10143288 1000 data/insertion/mean/insertion_sort_mean-1000-600.txt
+700 1.00426e+07 9998340 10001830 1000 data/insertion/mean/insertion_sort_mean-1000-700.txt
+800 1.33942e+07 20431698 12259216 1000 data/insertion/mean/insertion_sort_mean-1000-800.txt
+900 1.72205e+07 24599479 15751562 1000 data/insertion/mean/insertion_sort_mean-1000-900.txt

@@ -1,0 +1,10 @@
+100 350951 350,951 577092 319031 1000 data/quick/worst/quick_sort_worst-1000-100.txt
+200 1.28076e+06 1998066 1161936 1000 data/quick/worst/quick_sort_worst-1000-200.txt
+300 2.79184e+06 4672125 2621955 1000 data/quick/worst/quick_sort_worst-1000-300.txt
+400 5.08394e+06 8089784 4831155 1000 data/quick/worst/quick_sort_worst-1000-400.txt
+500 8.1725e+06 9944895 10778583 1000 data/quick/worst/quick_sort_worst-1000-500.txt
+600 1.20321e+07 16857815 11562074 1000 data/quick/worst/quick_sort_worst-1000-600.txt
+700 1.67673e+07 27966797 15825813 1000 data/quick/worst/quick_sort_worst-1000-700.txt
+800 2.18265e+07 35717151 20774281 1000 data/quick/worst/quick_sort_worst-1000-800.txt
+900 2.72615e+07 37160361 25923124 1000 data/quick/worst/quick_sort_worst-1000-900.txt
+

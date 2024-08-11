@@ -1,0 +1,9 @@
+100 15830,9 9986 10055 1000 data/insertion/best/insertion_sort_best-1000-100.txt
+200 18409,6 36660 16968 1000 data/insertion/best/insertion_sort_best-1000-200.txt
+300 27907,2 56702 25348 1000 data/insertion/best/insertion_sort_best-1000-300.txt
+400 37705,1 76324 35265 1000 data/insertion/best/insertion_sort_best-1000-400.txt
+500 48634,4 82051 100416 1000 data/insertion/best/insertion_sort_best-1000-500.txt
+600 58961,4 91549 100278 1000 data/insertion/best/insertion_sort_best-1000-600.txt
+700 70326,2 96857 100069 1000 data/insertion/best/insertion_sort_best-1000-700.txt
+800 81202,6 99720 101187 1000 data/insertion/best/insertion_sort_best-1000-800.txt
+900 90423,2 99722 100001 1000 data/insertion/best/insertion_sort_best-1000-900.txt

@@ -1,0 +1,26 @@
+Para utilizar os códigos desse trabalho, é necessário ter, no mínimo a ferramenta python3 instalada em sua máquina.
+Uma vez que se tenha esse programa, é possível executar qualquer um dos códigos na pasta de fontes.
+
+Para executar os códigos, através de algum terminal de comando digite:
+$ python3 <algoritmo.py> <tamanho do vetor>
+
+Observação: caso o terminal não esteja na pasta de fontes, acesse-o ou coloque "... fontes/<algoritmo.py> ..." 
+ou qualquer complemento neccessário para acessar a pasta.
+
+<algoritmo.py>      -> distribution_sort.py, insertion_sort.py, merge_sort.py...
+<tamanho do vetor>  -> 1, 2, 3, 4, 5, 6... 
+
+Exemplo de execução:
+
+$ python3 selection_sort.py 10
+$ python3 insertion_sort.py 400
+
+O resultado da execução desses algoritmos será o tempo de execução em milisegundos diretamente no terminal.
+
+Exemplo de resultado:
+
+$ python3 selection_sort.py 10
+12991
+$ python3 insertion_sort.py 400
+5945117
+

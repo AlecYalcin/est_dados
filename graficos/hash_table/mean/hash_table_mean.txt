@@ -1,4 +1,15 @@
-100 1531,24 978 11527 1000 graficos/hash_table/mean/hash_table_mean-1000-100.txt
+1 1504,78 9917 10825 1000 graficos/hash_table/mean/hash_table_mean-1000-1.txt
+10 1598,73 978 11384 1000 graficos/hash_table/mean/hash_table_mean-1000-10.txt
+19 1536,8 978 11803 1000 graficos/hash_table/mean/hash_table_mean-1000-19.txt
+28 1552,07 978 1327 1000 graficos/hash_table/mean/hash_table_mean-1000-28.txt
+37 1576,09 978 11593 1000 graficos/hash_table/mean/hash_table_mean-1000-37.txt
+46 1732,61 978 108672 1000 graficos/hash_table/mean/hash_table_mean-1000-46.txt
+55 1539,64 978 11384 1000 graficos/hash_table/mean/hash_table_mean-1000-55.txt
+64 1509,89 9848 10965 1000 graficos/hash_table/mean/hash_table_mean-1000-64.txt
+73 1544,66 978 1396 1000 graficos/hash_table/mean/hash_table_mean-1000-73.txt
+82 1540,54 978 1327 1000 graficos/hash_table/mean/hash_table_mean-1000-82.txt
+91 1437,17 978 1327 1000 graficos/hash_table/mean/hash_table_mean-1000-91.txt
+100 1552,98 978 12641 1000 graficos/hash_table/mean/hash_table_mean-1000-100.txt
 200 1606,26 979 11945 1000 graficos/hash_table/mean/hash_table_mean-1000-200.txt
 300 1621,99 978 11527 1000 graficos/hash_table/mean/hash_table_mean-1000-300.txt
 400 1588,38 979 10828 1000 graficos/hash_table/mean/hash_table_mean-1000-400.txt

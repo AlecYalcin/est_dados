@@ -1,4 +1,15 @@
-100 1600,02 9922 11319 1000 graficos/binary_tree/mean/binary_tree_mean-1000-100.txt
+1 1589,51 978 10336 1000 graficos/binary_tree/mean/binary_tree_mean-1000-1.txt
+10 1486,74 978 1327 1000 graficos/binary_tree/mean/binary_tree_mean-1000-10.txt
+19 1627,14 978 10057 1000 graficos/binary_tree/mean/binary_tree_mean-1000-19.txt
+28 1608,64 978 10197 1000 graficos/binary_tree/mean/binary_tree_mean-1000-28.txt
+37 1673,31 978 10825 1000 graficos/binary_tree/mean/binary_tree_mean-1000-37.txt
+46 1674,13 978 12501 1000 graficos/binary_tree/mean/binary_tree_mean-1000-46.txt
+55 1550,83 978 12781 1000 graficos/binary_tree/mean/binary_tree_mean-1000-55.txt
+64 1581,41 9848 10965 1000 graficos/binary_tree/mean/binary_tree_mean-1000-64.txt
+73 1512,47 978 1327 1000 graficos/binary_tree/mean/binary_tree_mean-1000-73.txt
+82 1566,6 978 1327 1000 graficos/binary_tree/mean/binary_tree_mean-1000-82.txt
+91 1618,54 978 10965 1000 graficos/binary_tree/mean/binary_tree_mean-1000-91.txt
+100 1689,92 978 10336 1000 graficos/binary_tree/mean/binary_tree_mean-1000-100.txt
 200 1690,08 979 11040 1000 graficos/binary_tree/mean/binary_tree_mean-1000-200.txt
 300 1572,75 9922 10900 1000 graficos/binary_tree/mean/binary_tree_mean-1000-300.txt
 400 1594 1,594 979 10481 1000 graficos/binary_tree/mean/binary_tree_mean-1000-400.txt

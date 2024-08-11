@@ -1,0 +1,100 @@
+100 2929,57 4819 1396 1000 graficos/binary_tree/worst/binary_tree_worst-1000-100.txt
+200 3618,5 86318 13478 1000 graficos/binary_tree/worst/binary_tree_worst-1000-200.txt
+300 4166,59 7263 17320 1000 graficos/binary_tree/worst/binary_tree_worst-1000-300.txt
+400 5126,97 9009 13409 1000 graficos/binary_tree/worst/binary_tree_worst-1000-400.txt
+500 5313,9 8241 12710 1000 graficos/binary_tree/worst/binary_tree_worst-1000-500.txt
+600 5744,48 9498 13758 1000 graficos/binary_tree/worst/binary_tree_worst-1000-600.txt
+700 6357,64 9638 103777 1000 graficos/binary_tree/worst/binary_tree_worst-1000-700.txt
+800 6876,73 9428 13199 1000 graficos/binary_tree/worst/binary_tree_worst-1000-800.txt
+900 7339,6 8520 14596 1000 graficos/binary_tree/worst/binary_tree_worst-1000-900.txt
+1000 7566,1 9987 10056 1000 graficos/binary_tree/worst/binary_tree_worst-1000-1000.txt
+1100 5160,3 9986 10894 1000 graficos/binary_tree/worst/binary_tree_worst-1000-1100.txt
+1200 5231,81 8101 10406 1000 graficos/binary_tree/worst/binary_tree_worst-1000-1200.txt
+1300 5827,37 8032 10341 1000 graficos/binary_tree/worst/binary_tree_worst-1000-1300.txt
+1400 5723,86 9154 11389 1000 graficos/binary_tree/worst/binary_tree_worst-1000-1400.txt
+1500 6114,28 9363 10132 1000 graficos/binary_tree/worst/binary_tree_worst-1000-1500.txt
+1600 7204,71 9713 10062 1000 graficos/binary_tree/worst/binary_tree_worst-1000-1600.txt
+1700 7173,79 9922 10550 1000 graficos/binary_tree/worst/binary_tree_worst-1000-1700.txt
+1800 7351,57 9991 10061 1000 graficos/binary_tree/worst/binary_tree_worst-1000-1800.txt
+1900 7558,02 9922 10061 1000 graficos/binary_tree/worst/binary_tree_worst-1000-1900.txt
+2000 7875,48 9991 10060 1000 graficos/binary_tree/worst/binary_tree_worst-1000-2000.txt
+2100 8013,73 9991 10061 1000 graficos/binary_tree/worst/binary_tree_worst-1000-2100.txt
+2200 8206,72 9991 10060 1000 graficos/binary_tree/worst/binary_tree_worst-1000-2200.txt
+2300 9702,24 9991 10060 1000 graficos/binary_tree/worst/binary_tree_worst-1000-2300.txt
+2400 9885,18 9990 10059 1000 graficos/binary_tree/worst/binary_tree_worst-1000-2400.txt
+2500 11366,5 9990 10059 1000 graficos/binary_tree/worst/binary_tree_worst-1000-2500.txt
+2600 11714,8 9990 10059 1000 graficos/binary_tree/worst/binary_tree_worst-1000-2600.txt
+2700 11779,7 9990 10058 1000 graficos/binary_tree/worst/binary_tree_worst-1000-2700.txt
+2800 12007,5 9989 10058 1000 graficos/binary_tree/worst/binary_tree_worst-1000-2800.txt
+2900 12053,6 9989 10058 1000 graficos/binary_tree/worst/binary_tree_worst-1000-2900.txt
+3000 12474,7 9918 9918 1000 graficos/binary_tree/worst/binary_tree_worst-1000-3000.txt
+3100 12772 12,772 44773 10058 1000 graficos/binary_tree/worst/binary_tree_worst-1000-3100.txt
+3200 12328,4 34854 10058 1000 graficos/binary_tree/worst/binary_tree_worst-1000-3200.txt
+3300 11493,1 9988 10128 1000 graficos/binary_tree/worst/binary_tree_worst-1000-3300.txt
+3400 11511 11,511 28986 10058 1000 graficos/binary_tree/worst/binary_tree_worst-1000-3400.txt
+3500 11887,8 30522 10407 1000 graficos/binary_tree/worst/binary_tree_worst-1000-3500.txt
+3600 12162,5 34853 10616 1000 graficos/binary_tree/worst/binary_tree_worst-1000-3600.txt
+3700 12333,8 43793 10895 1000 graficos/binary_tree/worst/binary_tree_worst-1000-3700.txt
+3800 12697,1 94777 11315 1000 graficos/binary_tree/worst/binary_tree_worst-1000-3800.txt
+3900 13000,8 41627 11384 1000 graficos/binary_tree/worst/binary_tree_worst-1000-3900.txt
+4000 13290,8 36248 11873 1000 graficos/binary_tree/worst/binary_tree_worst-1000-4000.txt
+4100 13607,7 39460 12293 1000 graficos/binary_tree/worst/binary_tree_worst-1000-4100.txt
+4200 13803,1 37645 12223 1000 graficos/binary_tree/worst/binary_tree_worst-1000-4200.txt
+4300 13999,1 38552 12223 1000 graficos/binary_tree/worst/binary_tree_worst-1000-4300.txt
+4400 14395,5 38692 12921 1000 graficos/binary_tree/worst/binary_tree_worst-1000-4400.txt
+4500 14637,2 41270 13407 1000 graficos/binary_tree/worst/binary_tree_worst-1000-4500.txt
+4600 14964 14,964 33938 13268 1000 graficos/binary_tree/worst/binary_tree_worst-1000-4600.txt
+4700 15508,2 34917 13757 1000 graficos/binary_tree/worst/binary_tree_worst-1000-4700.txt
+4800 17427,9 45741 14246 1000 graficos/binary_tree/worst/binary_tree_worst-1000-4800.txt
+4900 17620,7 47628 14246 1000 graficos/binary_tree/worst/binary_tree_worst-1000-4900.txt
+5000 16233,1 40575 14805 1000 graficos/binary_tree/worst/binary_tree_worst-1000-5000.txt
+5100 16914,2 46581 14945 1000 graficos/binary_tree/worst/binary_tree_worst-1000-5100.txt
+5200 16806,6 46302 15224 1000 graficos/binary_tree/worst/binary_tree_worst-1000-5200.txt
+5300 17036,8 48187 15294 1000 graficos/binary_tree/worst/binary_tree_worst-1000-5300.txt
+5400 17514,3 55311 16132 1000 graficos/binary_tree/worst/binary_tree_worst-1000-5400.txt
+5500 17642,1 48258 16133 1000 graficos/binary_tree/worst/binary_tree_worst-1000-5500.txt
+5600 17985,1 48189 101964 1000 graficos/binary_tree/worst/binary_tree_worst-1000-5600.txt
+5700 18272,3 92536 17041 1000 graficos/binary_tree/worst/binary_tree_worst-1000-5700.txt
+5800 18888,7 53915 17041 1000 graficos/binary_tree/worst/binary_tree_worst-1000-5800.txt
+5900 18966,3 54544 17040 1000 graficos/binary_tree/worst/binary_tree_worst-1000-5900.txt
+6000 19160,7 94842 17251 1000 graficos/binary_tree/worst/binary_tree_worst-1000-6000.txt
+6100 19495 19,495 50424 17669 1000 graficos/binary_tree/worst/binary_tree_worst-1000-6100.txt
+6200 19757,4 56430 18088 1000 graficos/binary_tree/worst/binary_tree_worst-1000-6200.txt
+6300 19807,8 32824 18647 1000 graficos/binary_tree/worst/binary_tree_worst-1000-6300.txt
+6400 20286,8 59224 18996 1000 graficos/binary_tree/worst/binary_tree_worst-1000-6400.txt
+6500 20425 20,425 45326 19415 1000 graficos/binary_tree/worst/binary_tree_worst-1000-6500.txt
+6600 20793,6 51112 19411 1000 graficos/binary_tree/worst/binary_tree_worst-1000-6600.txt
+6700 21111,2 54745 19552 1000 graficos/binary_tree/worst/binary_tree_worst-1000-6700.txt
+6800 21384,3 61520 20111 1000 graficos/binary_tree/worst/binary_tree_worst-1000-6800.txt
+6900 21720,8 64804 20530 1000 graficos/binary_tree/worst/binary_tree_worst-1000-6900.txt
+7000 22190 22,19 59917 20322 1000 graficos/binary_tree/worst/binary_tree_worst-1000-7000.txt
+7100 22489,7 52865 21160 1000 graficos/binary_tree/worst/binary_tree_worst-1000-7100.txt
+7200 23577 23,577 92462 21370 1000 graficos/binary_tree/worst/binary_tree_worst-1000-7200.txt
+7300 22944,1 59081 21091 1000 graficos/binary_tree/worst/binary_tree_worst-1000-7300.txt
+7400 23554,7 80871 21789 1000 graficos/binary_tree/worst/binary_tree_worst-1000-7400.txt
+7500 23584 23,584 86807 21510 1000 graficos/binary_tree/worst/binary_tree_worst-1000-7500.txt
+7600 23593,9 62015 22348 1000 graficos/binary_tree/worst/binary_tree_worst-1000-7600.txt
+7700 23905,6 64879 22418 1000 graficos/binary_tree/worst/binary_tree_worst-1000-7700.txt
+7800 24172,5 63971 22907 1000 graficos/binary_tree/worst/binary_tree_worst-1000-7800.txt
+7900 24462,4 58971 23126 1000 graficos/binary_tree/worst/binary_tree_worst-1000-7900.txt
+8000 24916,3 72027 23403 1000 graficos/binary_tree/worst/binary_tree_worst-1000-8000.txt
+8100 24952,3 69087 23122 1000 graficos/binary_tree/worst/binary_tree_worst-1000-8100.txt
+8200 25335,9 65378 23748 1000 graficos/binary_tree/worst/binary_tree_worst-1000-8200.txt
+8300 25548,2 68101 24307 1000 graficos/binary_tree/worst/binary_tree_worst-1000-8300.txt
+8400 25889 25,889 67331 24027 1000 graficos/binary_tree/worst/binary_tree_worst-1000-8400.txt
+8500 26455,3 77387 24794 1000 graficos/binary_tree/worst/binary_tree_worst-1000-8500.txt
+8600 26388,9 69215 25283 1000 graficos/binary_tree/worst/binary_tree_worst-1000-8600.txt
+8700 26951 26,951 69284 109024 1000 graficos/binary_tree/worst/binary_tree_worst-1000-8700.txt
+8800 27174,7 72426 25981 1000 graficos/binary_tree/worst/binary_tree_worst-1000-8800.txt
+8900 27447,8 67328 25633 1000 graficos/binary_tree/worst/binary_tree_worst-1000-8900.txt
+9000 27905 27,905 75290 26191 1000 graficos/binary_tree/worst/binary_tree_worst-1000-9000.txt
+9100 28024,2 71169 26610 1000 graficos/binary_tree/worst/binary_tree_worst-1000-9100.txt
+9200 28562,8 65093 26610 1000 graficos/binary_tree/worst/binary_tree_worst-1000-9200.txt
+9300 28566 28,566 70819 27238 1000 graficos/binary_tree/worst/binary_tree_worst-1000-9300.txt
+9400 29128,1 69284 120198 1000 graficos/binary_tree/worst/binary_tree_worst-1000-9400.txt
+9500 29279,7 86254 27168 1000 graficos/binary_tree/worst/binary_tree_worst-1000-9500.txt
+9600 29511,6 82343 28076 1000 graficos/binary_tree/worst/binary_tree_worst-1000-9600.txt
+9700 29971,3 84229 28077 1000 graficos/binary_tree/worst/binary_tree_worst-1000-9700.txt
+9800 29988,1 78852 28635 1000 graficos/binary_tree/worst/binary_tree_worst-1000-9800.txt
+9900 30401,5 78642 28984 1000 graficos/binary_tree/worst/binary_tree_worst-1000-9900.txt
+10000 30782,6 81715 29403 1000 graficos/binary_tree/worst/binary_tree_worst-1000-10000.txt

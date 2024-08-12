@@ -1,0 +1,30 @@
+Todos os códigos desse documento se encontram na pasta "fontes". Todos os gráficos desse documento se encontram na pasta "graficos".
+
+## Compilação e Execução
+Para compilar os códigos, digite a seguinte linha se comando:
+$ gcc -Wall -o <algoritmo> <algoritmo>.c
+<algoritmo> -> nome do algoritmo salvo na pasta de fontes: avl_tree_mean, binary_tree_worst, hash_table_mean...
+
+Caso tenha algum outro compilador, adapte a compilação o quanto necessário.
+Após compilar o código, execute:
+$ ./<algoritmo> <tamanho do vetor>
+<algoritmo>         -> nome do algoritmo salvo na pasta de fontes: avl_tree_mean, binary_tree_worst, hash_table_mean...
+<tamanho do vetor>  -> valor numérico tal como 1, 100, 234, 10045...
+
+Se estiver no windows, substitua ./<algoritmo> por <algoritmo.exe>, o restante continua igual.
+
+## Gerando gráficos
+Utilizando a ferramenta gnuplot e o arquivo iterate.sh, salvo no próprio projeto, é possível gerar os gráficos.
+
+Para gerar os arquivos de base do gráficos, digite a seguinte linha de comando:
+$ sh iterate.sh 1000 100 100 10000 "fontes/<algoritmo>" graficos/<algoritmo>/<tipo>/<algoritmo>
+<algoritmo> -> nome do algoritmo salvo na pasta de fontes: avl_tree_mean, binary_tree_worst, hash_table_mean...
+<tipo>      -> mean, worse ou best
+
+Ele vai gerar diversos arquivos de textos, o importante é o último arquivo gerado. Acesse a pasta de gráficos e execute o gnuplot,
+realizando os seguintes comandos:
+$ gnuplot
+gnuplot> plot "<algoritmo>/<tipo>/<algoritmo>.txt" u 1:2 with lines, "<algoritmo2>/<tipo2>/<algoritmo2> u 1:2 with lines...
+<algoritmo> -> nome do algoritmo salvo na pasta de fontes: avl_tree_mean, binary_tree_worst, hash_table_mean...
+<tipo>      -> mean, worse ou best
+

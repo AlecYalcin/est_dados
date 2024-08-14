@@ -153,7 +153,21 @@ int search(HashTable* hashTable, int value) {
     return -1;
 }
 
-// Excluindo elementos na tablea Hash
+// Excluindo elementos na tabela Hash
+void delete_table(HashTable* hashTable) {
+    for(int i=0; i < hashTable->m; i++) {
+        Node* current_node = hashTable->nodes[i];
+
+        while(current_node != NULL) {
+            Node* aux_node = current_node;
+            current_node = current_node->next;
+            free(aux_node);
+        }
+    }
+
+    free(hashTable->nodes);
+    free(hashTable);
+}
 
 // Printar a tabela completa
 void printHashTable(HashTable* hashTable) {
@@ -199,6 +213,9 @@ int main(int argc, char **argv) {
 
     // Mostrando o tempo para iterate
     printf("%u\n", time);
+
+    // Liberando memória
+    delete_table(hashTable);
 
     return 0;
 }

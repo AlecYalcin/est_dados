@@ -50,6 +50,14 @@ Node* binary_search(Node* root, int number) {
     return NULL;
 }
 
+void free_tree(Node** root) {
+    if ((*root) != NULL) {
+        free_tree(&(*root)->left);
+        free_tree(&(*root)->right);
+        free((*root));
+    }
+}
+
 void print_tree(Node* root) {
     if (root != NULL) {
         print_tree(root->left);
@@ -84,14 +92,15 @@ int main(int argc, char **argv) {
     Node* aux = binary_search(root, last);
     clock_gettime(CLOCK_MONOTONIC, &end);
 
-    // liberando aux
-    free(aux);
-
     // Calculando o tempo
     unsigned  time = (end.tv_sec * 1e9 + end.tv_nsec) - (start.tv_sec * 1e9 + start.tv_nsec);
 
     // Mostrando o tempo para iterate
     printf("%u\n", time);
+
+    // Liberando memória
+    free_tree(&root);
+    aux = NULL;
 
     return 0;
 }

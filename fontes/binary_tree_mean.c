@@ -58,14 +58,6 @@ void free_tree(Node** root) {
     }
 }
 
-void print_tree(Node* root) {
-    if (root != NULL) {
-        print_tree(root->left);
-        printf("%d\n", root->value);
-        print_tree(root->right);
-    }
-}
-
 int main(int argc, char **argv) {
     // Criando a raiz da árvore binária
     Node* root = NULL;
@@ -80,17 +72,20 @@ int main(int argc, char **argv) {
     int last;     
     // Inserindo elemento aleatórios na árvore binária
     for(int i = 0; i < n; i++) {
-        last = (rand() % n) + 1;
-        insert_node(&root, last);
+        last = rand();
+        insert_node(&root, (last + (last % 2)));
     }
+
+    last = rand();
+    last = last + (last % 2);
 
     // Inicializando variáveis de tempo
     struct timespec start, end;
 
     // Guardando valores de tempo
-    clock_gettime(CLOCK_MONOTONIC, &start);
+    clock_gettime(CLOCK_MONOTONIC_RAW, &start);
     Node* aux = binary_search(root, last);
-    clock_gettime(CLOCK_MONOTONIC, &end);
+    clock_gettime(CLOCK_MONOTONIC_RAW, &end);
 
     // Calculando o tempo
     unsigned  time = (end.tv_sec * 1e9 + end.tv_nsec) - (start.tv_sec * 1e9 + start.tv_nsec);

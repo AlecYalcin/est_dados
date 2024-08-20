@@ -199,7 +199,8 @@ int main(int argc, char **argv) {
     // Inserindo elemento aleatório na árvore binária
     for(int i = 0; i < n; i++) {
         last = rand();
-        insert(hashTable, (last + (last % 2)));
+        last = last + (last % 2);
+        insert(hashTable, last);
     }
 
     last = rand();
@@ -214,7 +215,7 @@ int main(int argc, char **argv) {
     clock_gettime(CLOCK_MONOTONIC_RAW, &end);
 
     // Calculando o tempo
-    unsigned  time = (end.tv_sec * 1e9 + end.tv_nsec) - (start.tv_sec * 1e9 + start.tv_nsec);
+    unsigned int time = (end.tv_sec * 1e9 + end.tv_nsec) - (start.tv_sec * 1e9 + start.tv_nsec);
 
     // Mostrando o tempo para iterate
     printf("%u\n", time);

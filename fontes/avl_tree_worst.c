@@ -236,12 +236,13 @@ int main(int argc, char **argv) {
     // Inserindo elementos aleatórios na árvore binária, embora o elemento procurado vá sempre ser um que não existe.
     for(int i = 0; i < n; i++) {
         int last = rand();
-        insert_node(&root, (last + (last % 2)));
+        last = last + (last % 2);
+        insert_node(&root, last);
         root = find_root(root);
     }
 
     last = rand();
-    last = last + (last%2) + 1;
+    last = last + (last % 2) + 1;
 
     // Inicializando variáveis de tempo
     struct timespec start, end;

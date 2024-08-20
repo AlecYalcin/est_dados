@@ -73,11 +73,8 @@ int main(int argc, char **argv) {
     // Inserindo elemento aleatórios na árvore binária
     for(int i = 0; i < n; i++) {
         last = rand();
-        insert_node(&root, (last + (last % 2)));
+        insert_node(&root, last);
     }
-
-    last = rand();
-    last = last + (last % 2);
 
     // Inicializando variáveis de tempo
     struct timespec start, end;

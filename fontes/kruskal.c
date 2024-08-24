@@ -183,14 +183,13 @@ int main(int argc, char** argv) {
 
     // Criação da Matriz
     int** g = create_graph(n);
-
+    
     // Inserindo elementos
-    insert_g(g, 0, 1, 2);
-    insert_g(g, 0, 3, 5);
-    insert_g(g, 1, 2, 4);
-    insert_g(g, 2, 3, 2);
-    insert_g(g, 2, 4, 1);
-    insert_g(g, 3, 4, 3);
+    for(int i = 0; i < n; i++) {
+        insert_g(g, i, rand() % n, rand() % (n*n));
+        insert_g(g, i, rand() % n, rand() % (n*2));
+        insert_g(g, i, rand() % n, rand () % n);
+    }
 
     // Mostrando Matriz
     print_matrix(g, n);

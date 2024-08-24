@@ -1,93 +1,72 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
-#include <time.h>
 
 typedef struct node {
-    char* key;
+    int v;
     struct node* next;
 } Node;
 
-Node* create_node(char* key) {
+typedef struct table {
+    unsigned int n;
+    Node** nodes;
+} Table;
+
+Node* create_node(int v) {
     Node* node = (Node*)malloc(sizeof(Node));
-    node->key  = key;
+    node->v = v;
     node->next = NULL;
     return node;
 }
 
-typedef struct hashTable {
-    unsigned int size;
-    Node** list;
-} HashTable;
+Table* create_table(unsigned int n) {
+    Table* table = (Table*)malloc(sizeof(Table));
 
-unsigned int hash(char* key, unsigned int size) {
-    unsigned long int value = 0;
-    for(int i = 0; i < strlen(key); i++) {
-        value = value * 37 + key[i];
-    }
-    return value % size;
-}
+    table->n = n;
+    table->nodes = (Node**)malloc(n * sizeof(Node*));
 
-HashTable* create_table(int size) {
-    HashTable* table = (HashTable*)malloc(sizeof(HashTable));
-    table->size = size;
-    table->list = (Node**)malloc(size * sizeof(Node*));
-
-    for(int i = 0; i < size; i++) {
-        table->list[i] = NULL;
+    for(int i = 0; i < n; i++) {
+        table->nodes[i] = NULL;
     }
 
     return table;
 }
 
-
-void insert(HashTable* table, Node* node, Node* neighbor) {
-    unsigned int index = hash(node->key, table->size);
-    
-    if(table->list[index] == NULL) {
-        table->list[index] = neighbor;
+void insert_node(Table* table, int key, int value) {
+    Node* new_node = create_node(value);
+    if(table->nodes[key] == NULL) {
+        table->nodes[key] = new_node;
+        insert_node(table, value, key);
     } else {
-        Node* current = table->list[index];
-        while(current->next != NULL) {
+        Node* current = table->nodes[key];
+        while(current->next != NULL || current->v == value) {
+            if(current->v == value) {
+                return;
+            }
             current = current->next;
         }
-        current->next = neighbor;
+        current->next = new_node;
+        insert_node(table, value, key);
     }
 }
 
-void print_table(HashTable* table) {
-    for(int i = 0; i < table->size; i++) {
+void print_table(Table* table) {
+    for(int i = 0; i < table->n; i++) {
+        Node* current = table->nodes[i];
         printf("[%d] -> ", i);
-
-        Node* current = table->list[i];
         while(current != NULL) {
-            printf("(%s) -> ", current->key);
+            printf("(%d) -> ", current->v);
             current = current->next;
         }
         printf("NULL\n");
     }
 }
 
-
-int main(int argc, char** argv) {
-    // Quantidade de elementos na tabela
-    unsigned int n = atoi(argv[1]);
-
-    // Tabela de Dispersão
-    HashTable* table = create_table(n);    
-
-    Node* caico = create_node("caico");
-    Node* jucurutu = create_node("jucurutu");
-    Node* jardim = create_node("jardim");
-
-    // Teste
-    insert(table, caico, jucurutu);
-    insert(table, jucurutu, caico);
-    insert(table, caico, jardim);
-    insert(table, jardim, jucurutu);
-
-    // Mostrando o Grafo
-    print_table(table);
-
-    return 0;
+// Utils
+int isEmpty(int* array, int n) {
+    for(int i = 0; i < n; i++) {
+        if(array[i] != -1) {
+            return 0;
+        }
+    }
+    return 1;
 }

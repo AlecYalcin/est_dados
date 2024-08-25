@@ -3,6 +3,7 @@
 
 typedef struct node {
     int v;
+    int w;
     struct node* next;
 } Node;
 
@@ -14,6 +15,7 @@ typedef struct table {
 Node* create_node(int v) {
     Node* node = (Node*)malloc(sizeof(Node));
     node->v = v;
+    node->w = 1;
     node->next = NULL;
     return node;
 }
@@ -46,6 +48,25 @@ void insert_node(Table* table, int key, int value) {
         }
         current->next = new_node;
         insert_node(table, value, key);
+    }
+}
+
+void insert_weight(Table* table, int key, int value, int weight) {
+    Node* new_node = create_node(value);
+    new_node->w = weight;
+    if(table->nodes[key] == NULL) {
+        table->nodes[key] = new_node;
+        insert_weight(table, value, key, weight);
+    } else {
+        Node* current = table->nodes[key];
+        while(current->next != NULL || current->v == value) {
+            if(current->v == value) {
+                return;
+            }
+            current = current->next;
+        }
+        current->next = new_node;
+        insert_weight(table, value, key, weight);
     }
 }
 
